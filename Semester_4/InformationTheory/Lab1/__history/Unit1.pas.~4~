@@ -1,0 +1,335 @@
+Unit Unit1;
+
+Interface
+
+Uses
+    Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants,
+    System.Classes, Vcl.Graphics,
+    Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Grids;
+
+Type
+    TForm1 = Class(TForm)
+        Label1: TLabel;
+        OpDgInput: TOpenDialog;
+        Edit1: TEdit;
+        Label2: TLabel;
+        Edit2: TEdit;
+        Button1: TButton;
+        Button2: TButton;
+        Label3: TLabel;
+        Button3: TButton;
+        Button4: TButton;
+        Button5: TButton;
+        Label4: TLabel;
+        Label5: TLabel;
+        Button6: TButton;
+        Edit3: TEdit;
+        StringGrid1: TStringGrid;
+        Procedure Button1Click(Sender: TObject);
+        Procedure Button2Click(Sender: TObject);
+        Procedure Button4Click(Sender: TObject);
+        Procedure Button6Click(Sender: TObject);
+
+        Procedure InputFile(Const Filename: String);
+        Procedure SaveToFile(Const Filename: String);
+        Procedure Button5Click(Sender: TObject);
+        Procedure Button3Click(Sender: TObject);
+
+        Function DecryptColumnarImproved(Const Text, Key: String): String;
+    Private
+        { Private declarations }
+    Public
+        { Public declarations }
+    End;
+
+Var
+    Form1: TForm1;
+
+Implementation
+
+{$R *.dfm}
+
+Procedure TForm1.Button1Click(Sender: TObject);
+Var
+    FilePath: String;
+    IsFileNotGood: Boolean;
+Begin
+    If OpDgInput.Execute() Then
+    Begin
+        FilePath := OpDgInput.FileName;
+        InputFile(FilePath);
+    End;
+End;
+
+Procedure TForm1.InputFile(Const Filename: String);
+Var
+    FileInput: TextFile;
+    Res: String;
+Begin
+    AssignFile(FileInput, Filename);
+    Readln(FileInput, Res);
+    Edit1.Text := Res;
+    CloseFile(FileInput);
+End;
+
+Function CleanEnglish(Const S: String): String;
+Var
+    I: Integer;
+Begin
+    Result := '';
+    For I := 1 To Length(S) Do
+    Begin
+        If (S[I] >= 'A') And (S[I] <= 'Z') Then
+            Result := Result + S[I];
+    End;
+End;
+
+// YARMOLIK
+// INFORMATIONTHEORY
+// NONIRYTOMHAERTIFO
+
+Function EncryptColumnarImproved(Const Text, Key: String): String;
+Var
+    CleanText, CleanKey: String;
+    ColCount, I, J, PosText: Integer;
+    Order: Array Of Integer;
+    Matrix: Array Of Array Of Char;
+    RowLengths: Array Of Integer;
+Begin
+    CleanText := CleanEnglish(Text);
+    CleanKey := CleanEnglish(Key);
+
+    ColCount := Length(CleanKey);
+    If ColCount = 0 Then
+        Exit('');
+
+    SetLength(Order, ColCount);
+
+    For I := 0 To ColCount - 1 Do
+        Order[I] := 0;
+
+    For I := 0 To ColCount - 1 Do
+        For J := 0 To ColCount - 1 Do
+            If (CleanKey[J + 1] < CleanKey[I + 1]) Or
+                ((CleanKey[J + 1] = CleanKey[I + 1]) And (J < I)) Then
+                Inc(Order[I]);
+
+    PosText := 1;
+    SetLength(RowLengths, ColCount);
+    SetLength(Matrix, ColCount, ColCount);
+
+    For I := 0 To ColCount - 1 Do
+        For J := 0 To ColCount - 1 Do
+            Matrix[I][J] := #0;
+
+    For I := 0 To ColCount - 1 Do
+    Begin
+        For J := 0 To ColCount - 1 Do
+            If Order[J] = I Then
+            Begin
+                RowLengths[I] := J;
+                Break;
+            End;
+        For J := 0 To RowLengths[I] Do
+        Begin
+            If PosText <= Length(CleanText) Then
+            Begin
+                Matrix[I][J] := CleanText[PosText];
+                Inc(PosText);
+            End
+            Else
+                Matrix[I][J] := #0;
+        End;
+    End;
+
+    Result := '';
+    For I := 0 To ColCount - 1 Do
+        For J := 0 To ColCount - 1 Do
+            If Order[J] = I Then
+                For PosText := 0 To ColCount - 1 Do
+                    If Not(Matrix[PosText][J] = #0) Then
+                        Result := Result + Matrix[PosText][J];
+End;
+
+Procedure TForm1.Button2Click(Sender: TObject);
+Begin
+    Edit1.Text := CleanEnglish(Edit1.Text);
+    Edit2.Text := CleanEnglish(Edit2.Text);
+    Edit3.Text := EncryptColumnarImproved(Edit1.Text, Edit2.Text);
+End;
+
+// YARMOLIK
+// INFORMATIONTHEORY
+// NONIRYTOMHAERTIFO
+
+Function TForm1.DecryptColumnarImproved(Const Text, Key: String): String;
+Var
+    CleanText, CleanKey: String;
+    ColCount, I, J, K, PosText: Integer;
+    Order: Array Of Integer;
+    Matrix: Array Of Array Of Char;
+    MatrixTrue: Array Of Array Of Boolean;
+    RowLengths: Array Of Integer;
+Begin
+    CleanText := CleanEnglish(Text);
+    CleanKey := CleanEnglish(Key);
+
+    ColCount := Length(CleanKey);
+    If ColCount = 0 Then
+        Exit('');
+
+    SetLength(Matrix, ColCount, ColCount);
+    SetLength(MatrixTrue, ColCount, ColCount);
+    SetLength(RowLengths, ColCount);
+
+    For I := 0 To ColCount - 1 Do
+        For J := 0 To ColCount - 1 Do
+            MatrixTrue[I][J] := False;
+
+    SetLength(Order, ColCount);
+
+    For I := 0 To ColCount - 1 Do
+        Order[I] := 0;
+
+    For I := 0 To ColCount - 1 Do
+        For J := 0 To ColCount - 1 Do
+            If (CleanKey[J + 1] < CleanKey[I + 1]) Or
+                ((CleanKey[J + 1] = CleanKey[I + 1]) And (J < I)) Then
+                Inc(Order[I]);
+
+    PosText := 0;
+    For I := 0 To ColCount - 1 Do
+    Begin
+        For J := 0 To ColCount - 1 Do
+            If Order[J] = I Then
+            Begin
+                RowLengths[I] := J;
+                Break;
+            End;
+
+        For J := 0 To RowLengths[I] Do
+            If PosText < Length(CleanText) Then
+            Begin
+                MatrixTrue[I][J] := True;
+                Inc(PosText);
+            End;
+    End;
+
+    Result := '';
+
+    PosText := 1;
+    For I := 0 To ColCount - 1 Do
+        For J := 0 To ColCount - 1 Do
+            If Order[J] = I Then
+                For K := 0 To ColCount - 1 Do
+                    If MatrixTrue[K][I] And (PosText <= Length(CleanText)) Then
+                    Begin
+                        Matrix[K][I] := CleanText[PosText];
+                        Inc(PosText);
+                    End;
+
+    For I := 0 To ColCount - 1 Do
+        For J := 0 To ColCount - 1 Do
+            If MatrixTrue[J][I] Then
+                StringGrid1.Cells[I, J] := 'T'
+            Else
+                StringGrid1.Cells[I, J] := 'F';
+
+End;
+
+Procedure TForm1.Button3Click(Sender: TObject);
+Begin
+    Edit1.Text := CleanEnglish(Edit1.Text);
+    Edit2.Text := CleanEnglish(Edit2.Text);
+    Edit3.Text := DecryptColumnarImproved(Edit1.Text, Edit2.Text);
+End;
+
+Function CleanRussian(Const S: String): String;
+Var
+    I: Integer;
+Begin
+    Result := '';
+    For I := 1 To Length(S) Do
+    Begin
+        If (S[I] >= 'À') And (S[I] <= 'ß') Or (S[I] = '¨') Then
+            Result := Result + S[I];
+    End;
+End;
+
+Function VigenereAutoEncrypt(Const Text, Key: String): String;
+Const
+    Alphabet = 'ÀÁÂÃÄÅ¨ÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞß';
+Var
+    CleanText, CleanKey: String;
+    I, TPos, KPos, N: Integer;
+Begin
+    CleanText := CleanRussian(Text);
+    CleanKey := CleanRussian(Key);
+    N := Length(Alphabet);
+    Result := '';
+
+    For I := 1 To Length(CleanText) Do
+    Begin
+        TPos := Pos(CleanText[I], Alphabet) - 1;
+        KPos := Pos(CleanKey[(I - 1) Mod Length(CleanKey) + 1], Alphabet) - 1;
+        Result := Result + Alphabet[(TPos + KPos) Mod N + 1];
+    End;
+End;
+
+Procedure TForm1.Button4Click(Sender: TObject);
+Begin
+    Edit1.Text := CleanRussian(Edit1.Text);
+    Edit2.Text := CleanRussian(Edit2.Text);
+    Edit3.Text := VigenereAutoEncrypt(Edit1.Text, Edit2.Text);
+End;
+
+Function VigenereAutoDecrypt(Const Text, Key: String): String;
+Const
+    Alphabet = 'ÀÁÂÃÄÅ¨ÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞß';
+Var
+    I, TPos, KPos, N: Integer;
+    CleanText, CleanKey: String;
+    KeyChar: Char;
+Begin
+    CleanText := CleanRussian(Text);
+    CleanKey := CleanRussian(Key);
+    N := Length(Alphabet);
+    Result := '';
+
+    For I := 1 To Length(CleanText) Do
+    Begin
+        TPos := Pos(CleanText[I], Alphabet) - 1;
+        KPos := Pos(CleanKey[(I - 1) Mod Length(CleanKey) + 1], Alphabet) - 1;
+        Result := Result + Alphabet[(TPos - KPos + N) Mod N + 1];
+    End;
+End;
+
+Procedure TForm1.Button5Click(Sender: TObject);
+Begin
+    Edit1.Text := CleanRussian(Edit1.Text);
+    Edit2.Text := CleanRussian(Edit2.Text);
+    Edit3.Text := VigenereAutoDecrypt(Edit1.Text, Edit2.Text);
+End;
+
+Procedure TForm1.Button6Click(Sender: TObject);
+Var
+    FilePath: String;
+Begin
+    If OpDgInput.Execute() Then
+    Begin
+        FilePath := OpDgInput.FileName;
+        SaveToFile(FilePath);
+    End;
+End;
+
+Procedure TForm1.SaveToFile(Const Filename: String);
+Var
+    FileOutput: TextFile;
+Begin
+    AssignFile(FileOutput, Filename);
+    Rewrite(FileOutput);
+    Writeln(FileOutput, Edit3.Text);
+    CloseFile(FileOutput);
+End;
+
+End.

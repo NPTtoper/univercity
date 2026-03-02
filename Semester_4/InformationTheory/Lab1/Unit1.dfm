@@ -1,0 +1,129 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'TextEditor'
+  ClientHeight = 434
+  ClientWidth = 353
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  TextHeight = 15
+  object Label1: TLabel
+    Left = 64
+    Top = 20
+    Width = 233
+    Height = 15
+    Caption = #1058#1077#1082#1089#1090#1086#1074#1099#1081' '#1088#1077#1076#1072#1082#1090#1086#1088' '#1076#1083#1103' '#1074#1077#1088#1085#1077#1075#1086' '#1088#1077#1075#1080#1089#1090#1088#1072
+  end
+  object Label2: TLabel
+    Left = 8
+    Top = 112
+    Width = 37
+    Height = 15
+    Caption = #1050#1083#1102#1095': '
+  end
+  object Label3: TLabel
+    Left = 8
+    Top = 349
+    Width = 56
+    Height = 15
+    Caption = #1056#1077#1079#1091#1083#1100#1090#1072#1090':'
+  end
+  object Label4: TLabel
+    Left = 8
+    Top = 180
+    Width = 25
+    Height = 15
+    Caption = #1072#1085#1075#1083
+  end
+  object Label5: TLabel
+    Left = 8
+    Top = 266
+    Width = 19
+    Height = 15
+    Caption = #1088#1091#1089
+  end
+  object Edit1: TEdit
+    Left = 8
+    Top = 72
+    Width = 336
+    Height = 23
+    TabOrder = 0
+  end
+  object Edit2: TEdit
+    Left = 8
+    Top = 151
+    Width = 336
+    Height = 23
+    TabOrder = 1
+  end
+  object Button1: TButton
+    Left = 8
+    Top = 41
+    Width = 336
+    Height = 25
+    Caption = #1079#1072#1075#1088#1091#1079#1080#1090#1100' '#1080#1079' '#1092#1072#1081#1083#1072
+    TabOrder = 2
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 8
+    Top = 201
+    Width = 336
+    Height = 25
+    Caption = #1091#1083#1091#1095#1096#1077#1085#1085#1099#1081' '#1089#1090#1086#1083#1073#1094#1086#1074#1099#1081' '#1084#1077#1090#1086#1076' - '#1079#1072#1096#1080#1092#1088#1086#1074#1072#1090#1100
+    TabOrder = 3
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 8
+    Top = 232
+    Width = 336
+    Height = 25
+    Caption = #1091#1083#1091#1095#1096#1077#1085#1085#1099#1081' '#1089#1090#1086#1083#1073#1094#1086#1074#1099#1081' '#1084#1077#1090#1086#1076' - '#1088#1072#1089#1096#1080#1092#1088#1086#1074#1072#1090#1100
+    TabOrder = 4
+    OnClick = Button3Click
+  end
+  object Button4: TButton
+    Left = 8
+    Top = 287
+    Width = 336
+    Height = 25
+    Caption = #1072#1083#1075#1086#1088#1080#1090#1084' '#1042#1080#1078#1077#1085#1077#1088#1072' - '#1079#1072#1096#1080#1092#1088#1086#1074#1072#1090#1100
+    TabOrder = 5
+    OnClick = Button4Click
+  end
+  object Button5: TButton
+    Left = 8
+    Top = 318
+    Width = 336
+    Height = 25
+    Caption = #1072#1083#1075#1086#1088#1080#1090#1084' '#1042#1080#1078#1077#1085#1077#1088#1072' - '#1088#1072#1089#1096#1080#1092#1088#1086#1074#1072#1090#1100
+    TabOrder = 6
+    OnClick = Button5Click
+  end
+  object Button6: TButton
+    Left = 8
+    Top = 370
+    Width = 336
+    Height = 25
+    Caption = #1089#1086#1093#1088#1072#1085#1080#1090#1100' '#1074' '#1092#1072#1081#1083#1072
+    TabOrder = 7
+    OnClick = Button6Click
+  end
+  object Edit3: TEdit
+    Left = 8
+    Top = 401
+    Width = 336
+    Height = 23
+    TabOrder = 8
+  end
+  object OpenDialog1: TOpenDialog
+    Options = []
+    Left = 128
+    Top = 104
+  end
+end
