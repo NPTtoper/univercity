@@ -1,0 +1,288 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u0421#\\OOPsem1\\Labs\\Lab6\\Lab3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BD6B9E9E-3E19-1E62-5DC0-58D981F02584}|Lab3\\Lab3.csproj|d:\\\u0441#\\oopsem1\\labs\\lab6\\lab3\\lab3\\serialization\\figureserializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD6B9E9E-3E19-1E62-5DC0-58D981F02584}|Lab3\\Lab3.csproj|solutionrelative:lab3\\serialization\\figureserializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD6B9E9E-3E19-1E62-5DC0-58D981F02584}|Lab3\\Lab3.csproj|d:\\\u0441#\\oopsem1\\labs\\lab6\\lab3\\lab3\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD6B9E9E-3E19-1E62-5DC0-58D981F02584}|Lab3\\Lab3.csproj|solutionrelative:lab3\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD6B9E9E-3E19-1E62-5DC0-58D981F02584}|Lab3\\Lab3.csproj|d:\\\u0441#\\oopsem1\\labs\\lab6\\lab3\\lab3\\serialization\\icompressor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD6B9E9E-3E19-1E62-5DC0-58D981F02584}|Lab3\\Lab3.csproj|solutionrelative:lab3\\serialization\\icompressor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD6B9E9E-3E19-1E62-5DC0-58D981F02584}|Lab3\\Lab3.csproj|d:\\\u0441#\\oopsem1\\labs\\lab6\\lab3\\lab3\\pluginloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD6B9E9E-3E19-1E62-5DC0-58D981F02584}|Lab3\\Lab3.csproj|solutionrelative:lab3\\pluginloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD6B9E9E-3E19-1E62-5DC0-58D981F02584}|Lab3\\Lab3.csproj|d:\\\u0441#\\oopsem1\\labs\\lab6\\lab3\\lab3\\pluginmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD6B9E9E-3E19-1E62-5DC0-58D981F02584}|Lab3\\Lab3.csproj|solutionrelative:lab3\\pluginmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD6B9E9E-3E19-1E62-5DC0-58D981F02584}|Lab3\\Lab3.csproj|d:\\\u0441#\\oopsem1\\labs\\lab6\\lab3\\lab3\\serialization\\compressoradapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD6B9E9E-3E19-1E62-5DC0-58D981F02584}|Lab3\\Lab3.csproj|solutionrelative:lab3\\serialization\\compressoradapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD6B9E9E-3E19-1E62-5DC0-58D981F02584}|Lab3\\Lab3.csproj|d:\\\u0441#\\oopsem1\\labs\\lab6\\lab3\\lab3\\figures\\linefigure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD6B9E9E-3E19-1E62-5DC0-58D981F02584}|Lab3\\Lab3.csproj|solutionrelative:lab3\\figures\\linefigure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD6B9E9E-3E19-1E62-5DC0-58D981F02584}|Lab3\\Lab3.csproj|d:\\\u0441#\\oopsem1\\labs\\lab6\\lab3\\lab3\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BD6B9E9E-3E19-1E62-5DC0-58D981F02584}|Lab3\\Lab3.csproj|solutionrelative:lab3\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD6B9E9E-3E19-1E62-5DC0-58D981F02584}|Lab3\\Lab3.csproj|d:\\\u0441#\\oopsem1\\labs\\lab6\\lab3\\lab3\\serialization\\dataprocessormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD6B9E9E-3E19-1E62-5DC0-58D981F02584}|Lab3\\Lab3.csproj|solutionrelative:lab3\\serialization\\dataprocessormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD6B9E9E-3E19-1E62-5DC0-58D981F02584}|Lab3\\Lab3.csproj|d:\\\u0441#\\oopsem1\\labs\\lab6\\lab3\\lab3\\factories\\rectanglefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD6B9E9E-3E19-1E62-5DC0-58D981F02584}|Lab3\\Lab3.csproj|solutionrelative:lab3\\factories\\rectanglefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD6B9E9E-3E19-1E62-5DC0-58D981F02584}|Lab3\\Lab3.csproj|d:\\\u0441#\\oopsem1\\labs\\lab6\\lab3\\lab3\\factories\\circlefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD6B9E9E-3E19-1E62-5DC0-58D981F02584}|Lab3\\Lab3.csproj|solutionrelative:lab3\\factories\\circlefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD6B9E9E-3E19-1E62-5DC0-58D981F02584}|Lab3\\Lab3.csproj|d:\\\u0441#\\oopsem1\\labs\\lab6\\lab3\\lab3\\factories\\linefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD6B9E9E-3E19-1E62-5DC0-58D981F02584}|Lab3\\Lab3.csproj|solutionrelative:lab3\\factories\\linefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD6B9E9E-3E19-1E62-5DC0-58D981F02584}|Lab3\\Lab3.csproj|d:\\\u0441#\\oopsem1\\labs\\lab6\\lab3\\lab3\\factories\\figurefactorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD6B9E9E-3E19-1E62-5DC0-58D981F02584}|Lab3\\Lab3.csproj|solutionrelative:lab3\\factories\\figurefactorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD6B9E9E-3E19-1E62-5DC0-58D981F02584}|Lab3\\Lab3.csproj|d:\\\u0441#\\oopsem1\\labs\\lab6\\lab3\\lab3\\figures\\rectanglefigure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD6B9E9E-3E19-1E62-5DC0-58D981F02584}|Lab3\\Lab3.csproj|solutionrelative:lab3\\figures\\rectanglefigure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD6B9E9E-3E19-1E62-5DC0-58D981F02584}|Lab3\\Lab3.csproj|d:\\\u0441#\\oopsem1\\labs\\lab6\\lab3\\lab3\\figures\\circlefigure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD6B9E9E-3E19-1E62-5DC0-58D981F02584}|Lab3\\Lab3.csproj|solutionrelative:lab3\\figures\\circlefigure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD6B9E9E-3E19-1E62-5DC0-58D981F02584}|Lab3\\Lab3.csproj|d:\\\u0441#\\oopsem1\\labs\\lab6\\lab3\\lab3\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD6B9E9E-3E19-1E62-5DC0-58D981F02584}|Lab3\\Lab3.csproj|solutionrelative:lab3\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ICompressor.cs",
+              "DocumentMoniker": "D:\\\u0421#\\OOPsem1\\Labs\\Lab6\\Lab3\\Lab3\\Serialization\\ICompressor.cs",
+              "RelativeDocumentMoniker": "Lab3\\Serialization\\ICompressor.cs",
+              "ToolTip": "D:\\\u0421#\\OOPsem1\\Labs\\Lab6\\Lab3\\Lab3\\Serialization\\ICompressor.cs",
+              "RelativeToolTip": "Lab3\\Serialization\\ICompressor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T05:58:28.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CompressorAdapter.cs",
+              "DocumentMoniker": "D:\\\u0421#\\OOPsem1\\Labs\\Lab6\\Lab3\\Lab3\\Serialization\\CompressorAdapter.cs",
+              "RelativeDocumentMoniker": "Lab3\\Serialization\\CompressorAdapter.cs",
+              "ToolTip": "D:\\\u0421#\\OOPsem1\\Labs\\Lab6\\Lab3\\Lab3\\Serialization\\CompressorAdapter.cs",
+              "RelativeToolTip": "Lab3\\Serialization\\CompressorAdapter.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T05:39:19.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PluginManager.cs",
+              "DocumentMoniker": "D:\\\u0421#\\OOPsem1\\Labs\\Lab6\\Lab3\\Lab3\\PluginManager.cs",
+              "RelativeDocumentMoniker": "Lab3\\PluginManager.cs",
+              "ToolTip": "D:\\\u0421#\\OOPsem1\\Labs\\Lab6\\Lab3\\Lab3\\PluginManager.cs",
+              "RelativeToolTip": "Lab3\\PluginManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T05:39:01.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DataProcessorManager.cs",
+              "DocumentMoniker": "D:\\\u0421#\\OOPsem1\\Labs\\Lab6\\Lab3\\Lab3\\Serialization\\DataProcessorManager.cs",
+              "RelativeDocumentMoniker": "Lab3\\Serialization\\DataProcessorManager.cs",
+              "ToolTip": "D:\\\u0421#\\OOPsem1\\Labs\\Lab6\\Lab3\\Lab3\\Serialization\\DataProcessorManager.cs",
+              "RelativeToolTip": "Lab3\\Serialization\\DataProcessorManager.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T04:34:35.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PluginLoader.cs",
+              "DocumentMoniker": "D:\\\u0421#\\OOPsem1\\Labs\\Lab6\\Lab3\\Lab3\\PluginLoader.cs",
+              "RelativeDocumentMoniker": "Lab3\\PluginLoader.cs",
+              "ToolTip": "D:\\\u0421#\\OOPsem1\\Labs\\Lab6\\Lab3\\Lab3\\PluginLoader.cs",
+              "RelativeToolTip": "Lab3\\PluginLoader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwDEAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T04:01:39.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FigureFactoryBase.cs",
+              "DocumentMoniker": "D:\\\u0421#\\OOPsem1\\Labs\\Lab6\\Lab3\\Lab3\\Factories\\FigureFactoryBase.cs",
+              "RelativeDocumentMoniker": "Lab3\\Factories\\FigureFactoryBase.cs",
+              "ToolTip": "D:\\\u0421#\\OOPsem1\\Labs\\Lab6\\Lab3\\Lab3\\Factories\\FigureFactoryBase.cs",
+              "RelativeToolTip": "Lab3\\Factories\\FigureFactoryBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T04:00:01.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "D:\\\u0421#\\OOPsem1\\Labs\\Lab6\\Lab3\\Lab3\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Lab3\\AssemblyInfo.cs",
+              "ToolTip": "D:\\\u0421#\\OOPsem1\\Labs\\Lab6\\Lab3\\Lab3\\AssemblyInfo.cs",
+              "RelativeToolTip": "Lab3\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T03:55:51.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FigureSerializer.cs",
+              "DocumentMoniker": "D:\\\u0421#\\OOPsem1\\Labs\\Lab6\\Lab3\\Lab3\\Serialization\\FigureSerializer.cs",
+              "RelativeDocumentMoniker": "Lab3\\Serialization\\FigureSerializer.cs",
+              "ToolTip": "D:\\\u0421#\\OOPsem1\\Labs\\Lab6\\Lab3\\Lab3\\Serialization\\FigureSerializer.cs",
+              "RelativeToolTip": "Lab3\\Serialization\\FigureSerializer.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T03:46:07.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RectangleFactory.cs",
+              "DocumentMoniker": "D:\\\u0421#\\OOPsem1\\Labs\\Lab6\\Lab3\\Lab3\\Factories\\RectangleFactory.cs",
+              "RelativeDocumentMoniker": "Lab3\\Factories\\RectangleFactory.cs",
+              "ToolTip": "D:\\\u0421#\\OOPsem1\\Labs\\Lab6\\Lab3\\Lab3\\Factories\\RectangleFactory.cs",
+              "RelativeToolTip": "Lab3\\Factories\\RectangleFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T03:45:24.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CircleFactory.cs",
+              "DocumentMoniker": "D:\\\u0421#\\OOPsem1\\Labs\\Lab6\\Lab3\\Lab3\\Factories\\CircleFactory.cs",
+              "RelativeDocumentMoniker": "Lab3\\Factories\\CircleFactory.cs",
+              "ToolTip": "D:\\\u0421#\\OOPsem1\\Labs\\Lab6\\Lab3\\Lab3\\Factories\\CircleFactory.cs",
+              "RelativeToolTip": "Lab3\\Factories\\CircleFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T03:45:13.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LineFactory.cs",
+              "DocumentMoniker": "D:\\\u0421#\\OOPsem1\\Labs\\Lab6\\Lab3\\Lab3\\Factories\\LineFactory.cs",
+              "RelativeDocumentMoniker": "Lab3\\Factories\\LineFactory.cs",
+              "ToolTip": "D:\\\u0421#\\OOPsem1\\Labs\\Lab6\\Lab3\\Lab3\\Factories\\LineFactory.cs",
+              "RelativeToolTip": "Lab3\\Factories\\LineFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T03:45:01.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RectangleFigure.cs",
+              "DocumentMoniker": "D:\\\u0421#\\OOPsem1\\Labs\\Lab6\\Lab3\\Lab3\\Figures\\RectangleFigure.cs",
+              "RelativeDocumentMoniker": "Lab3\\Figures\\RectangleFigure.cs",
+              "ToolTip": "D:\\\u0421#\\OOPsem1\\Labs\\Lab6\\Lab3\\Lab3\\Figures\\RectangleFigure.cs",
+              "RelativeToolTip": "Lab3\\Figures\\RectangleFigure.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T03:44:16.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CircleFigure.cs",
+              "DocumentMoniker": "D:\\\u0421#\\OOPsem1\\Labs\\Lab6\\Lab3\\Lab3\\Figures\\CircleFigure.cs",
+              "RelativeDocumentMoniker": "Lab3\\Figures\\CircleFigure.cs",
+              "ToolTip": "D:\\\u0421#\\OOPsem1\\Labs\\Lab6\\Lab3\\Lab3\\Figures\\CircleFigure.cs",
+              "RelativeToolTip": "Lab3\\Figures\\CircleFigure.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T03:44:06.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LineFigure.cs",
+              "DocumentMoniker": "D:\\\u0421#\\OOPsem1\\Labs\\Lab6\\Lab3\\Lab3\\Figures\\LineFigure.cs",
+              "RelativeDocumentMoniker": "Lab3\\Figures\\LineFigure.cs",
+              "ToolTip": "D:\\\u0421#\\OOPsem1\\Labs\\Lab6\\Lab3\\Lab3\\Figures\\LineFigure.cs",
+              "RelativeToolTip": "Lab3\\Figures\\LineFigure.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T03:43:53.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\\u0421#\\OOPsem1\\Labs\\Lab6\\Lab3\\Lab3\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Lab3\\MainWindow.xaml",
+              "ToolTip": "D:\\\u0421#\\OOPsem1\\Labs\\Lab6\\Lab3\\Lab3\\MainWindow.xaml",
+              "RelativeToolTip": "Lab3\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-06T03:36:30.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\\u0421#\\OOPsem1\\Labs\\Lab6\\Lab3\\Lab3\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Lab3\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\\u0421#\\OOPsem1\\Labs\\Lab6\\Lab3\\Lab3\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Lab3\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAywLAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T03:36:27.416Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

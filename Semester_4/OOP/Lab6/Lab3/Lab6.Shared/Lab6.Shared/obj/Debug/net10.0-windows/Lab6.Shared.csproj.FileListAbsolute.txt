@@ -1,0 +1,11 @@
+D:\С#\OOPsem1\Labs\Lab6\Lab3\Lab6.Shared\Lab6.Shared\bin\Debug\net10.0-windows\Lab6.Shared.deps.json
+D:\С#\OOPsem1\Labs\Lab6\Lab3\Lab6.Shared\Lab6.Shared\bin\Debug\net10.0-windows\Lab6.Shared.dll
+D:\С#\OOPsem1\Labs\Lab6\Lab3\Lab6.Shared\Lab6.Shared\bin\Debug\net10.0-windows\Lab6.Shared.pdb
+D:\С#\OOPsem1\Labs\Lab6\Lab3\Lab6.Shared\Lab6.Shared\obj\Debug\net10.0-windows\Lab6.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\С#\OOPsem1\Labs\Lab6\Lab3\Lab6.Shared\Lab6.Shared\obj\Debug\net10.0-windows\Lab6.Shared.AssemblyInfoInputs.cache
+D:\С#\OOPsem1\Labs\Lab6\Lab3\Lab6.Shared\Lab6.Shared\obj\Debug\net10.0-windows\Lab6.Shared.AssemblyInfo.cs
+D:\С#\OOPsem1\Labs\Lab6\Lab3\Lab6.Shared\Lab6.Shared\obj\Debug\net10.0-windows\Lab6.Shared.csproj.CoreCompileInputs.cache
+D:\С#\OOPsem1\Labs\Lab6\Lab3\Lab6.Shared\Lab6.Shared\obj\Debug\net10.0-windows\Lab6.Shared.dll
+D:\С#\OOPsem1\Labs\Lab6\Lab3\Lab6.Shared\Lab6.Shared\obj\Debug\net10.0-windows\refint\Lab6.Shared.dll
+D:\С#\OOPsem1\Labs\Lab6\Lab3\Lab6.Shared\Lab6.Shared\obj\Debug\net10.0-windows\Lab6.Shared.pdb
+D:\С#\OOPsem1\Labs\Lab6\Lab3\Lab6.Shared\Lab6.Shared\obj\Debug\net10.0-windows\ref\Lab6.Shared.dll

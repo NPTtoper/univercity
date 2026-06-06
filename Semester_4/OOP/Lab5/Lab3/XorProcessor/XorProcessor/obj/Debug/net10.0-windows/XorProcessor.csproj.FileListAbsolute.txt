@@ -1,0 +1,17 @@
+D:\С#\OOPsem1\Labs\Lab5\Lab3\XorProcessor\XorProcessor\obj\Debug\net10.0-windows\XorProcessor.csproj.AssemblyReference.cache
+D:\С#\OOPsem1\Labs\Lab5\Lab3\XorProcessor\XorProcessor\obj\Debug\net10.0-windows\XorProcessor.GeneratedMSBuildEditorConfig.editorconfig
+D:\С#\OOPsem1\Labs\Lab5\Lab3\XorProcessor\XorProcessor\obj\Debug\net10.0-windows\XorProcessor.AssemblyInfoInputs.cache
+D:\С#\OOPsem1\Labs\Lab5\Lab3\XorProcessor\XorProcessor\obj\Debug\net10.0-windows\XorProcessor.AssemblyInfo.cs
+D:\С#\OOPsem1\Labs\Lab5\Lab3\XorProcessor\XorProcessor\obj\Debug\net10.0-windows\XorProcessor.csproj.CoreCompileInputs.cache
+D:\С#\OOPsem1\Labs\Lab5\Lab3\XorProcessor\XorProcessor\bin\Debug\net10.0-windows\XorProcessor.deps.json
+D:\С#\OOPsem1\Labs\Lab5\Lab3\XorProcessor\XorProcessor\bin\Debug\net10.0-windows\XorProcessor.dll
+D:\С#\OOPsem1\Labs\Lab5\Lab3\XorProcessor\XorProcessor\bin\Debug\net10.0-windows\XorProcessor.pdb
+D:\С#\OOPsem1\Labs\Lab5\Lab3\XorProcessor\XorProcessor\bin\Debug\net10.0-windows\Lab3.dll
+D:\С#\OOPsem1\Labs\Lab5\Lab3\XorProcessor\XorProcessor\bin\Debug\net10.0-windows\Lab3.Shared.dll
+D:\С#\OOPsem1\Labs\Lab5\Lab3\XorProcessor\XorProcessor\bin\Debug\net10.0-windows\Lab3.pdb
+D:\С#\OOPsem1\Labs\Lab5\Lab3\XorProcessor\XorProcessor\bin\Debug\net10.0-windows\Lab3.Shared.pdb
+D:\С#\OOPsem1\Labs\Lab5\Lab3\XorProcessor\XorProcessor\obj\Debug\net10.0-windows\XorProce.848AC4C0.Up2Date
+D:\С#\OOPsem1\Labs\Lab5\Lab3\XorProcessor\XorProcessor\obj\Debug\net10.0-windows\XorProcessor.dll
+D:\С#\OOPsem1\Labs\Lab5\Lab3\XorProcessor\XorProcessor\obj\Debug\net10.0-windows\refint\XorProcessor.dll
+D:\С#\OOPsem1\Labs\Lab5\Lab3\XorProcessor\XorProcessor\obj\Debug\net10.0-windows\XorProcessor.pdb
+D:\С#\OOPsem1\Labs\Lab5\Lab3\XorProcessor\XorProcessor\obj\Debug\net10.0-windows\ref\XorProcessor.dll

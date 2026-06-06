@@ -1,0 +1,17 @@
+D:\С#\OOPsem1\Labs\Lab6\Lab3\GzipCompressor\GzipCompressor\bin\Debug\net10.0-windows\GzipCompressor.deps.json
+D:\С#\OOPsem1\Labs\Lab6\Lab3\GzipCompressor\GzipCompressor\bin\Debug\net10.0-windows\GzipCompressor.dll
+D:\С#\OOPsem1\Labs\Lab6\Lab3\GzipCompressor\GzipCompressor\bin\Debug\net10.0-windows\GzipCompressor.pdb
+D:\С#\OOPsem1\Labs\Lab6\Lab3\GzipCompressor\GzipCompressor\bin\Debug\net10.0-windows\Lab3.dll
+D:\С#\OOPsem1\Labs\Lab6\Lab3\GzipCompressor\GzipCompressor\bin\Debug\net10.0-windows\Lab3.Shared.dll
+D:\С#\OOPsem1\Labs\Lab6\Lab3\GzipCompressor\GzipCompressor\bin\Debug\net10.0-windows\Lab3.pdb
+D:\С#\OOPsem1\Labs\Lab6\Lab3\GzipCompressor\GzipCompressor\bin\Debug\net10.0-windows\Lab3.Shared.pdb
+D:\С#\OOPsem1\Labs\Lab6\Lab3\GzipCompressor\GzipCompressor\obj\Debug\net10.0-windows\GzipCompressor.csproj.AssemblyReference.cache
+D:\С#\OOPsem1\Labs\Lab6\Lab3\GzipCompressor\GzipCompressor\obj\Debug\net10.0-windows\GzipCompressor.GeneratedMSBuildEditorConfig.editorconfig
+D:\С#\OOPsem1\Labs\Lab6\Lab3\GzipCompressor\GzipCompressor\obj\Debug\net10.0-windows\GzipCompressor.AssemblyInfoInputs.cache
+D:\С#\OOPsem1\Labs\Lab6\Lab3\GzipCompressor\GzipCompressor\obj\Debug\net10.0-windows\GzipCompressor.AssemblyInfo.cs
+D:\С#\OOPsem1\Labs\Lab6\Lab3\GzipCompressor\GzipCompressor\obj\Debug\net10.0-windows\GzipCompressor.csproj.CoreCompileInputs.cache
+D:\С#\OOPsem1\Labs\Lab6\Lab3\GzipCompressor\GzipCompressor\obj\Debug\net10.0-windows\GzipComp.2904F986.Up2Date
+D:\С#\OOPsem1\Labs\Lab6\Lab3\GzipCompressor\GzipCompressor\obj\Debug\net10.0-windows\GzipCompressor.dll
+D:\С#\OOPsem1\Labs\Lab6\Lab3\GzipCompressor\GzipCompressor\obj\Debug\net10.0-windows\refint\GzipCompressor.dll
+D:\С#\OOPsem1\Labs\Lab6\Lab3\GzipCompressor\GzipCompressor\obj\Debug\net10.0-windows\GzipCompressor.pdb
+D:\С#\OOPsem1\Labs\Lab6\Lab3\GzipCompressor\GzipCompressor\obj\Debug\net10.0-windows\ref\GzipCompressor.dll
