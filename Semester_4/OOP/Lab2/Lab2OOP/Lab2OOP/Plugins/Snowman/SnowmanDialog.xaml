@@ -1,0 +1,27 @@
+<Window x:Class="Snowman.SnowmanDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Create Snowman" Width="320" Height="280">
+    <StackPanel Margin="10">
+        <TextBlock Text="Center X:" FontWeight="Bold"/>
+        <TextBox x:Name="txtCenterX" Text="200"/>
+        <TextBlock Text="Center Y:" FontWeight="Bold" Margin="0,10,0,0"/>
+        <TextBox x:Name="txtCenterY" Text="200"/>
+        <TextBlock Text="Size:" FontWeight="Bold" Margin="0,10,0,0"/>
+        <ComboBox x:Name="cmbSize" SelectedIndex="1">
+            <ComboBoxItem>Small (100px)</ComboBoxItem>
+            <ComboBoxItem>Medium (150px)</ComboBoxItem>
+            <ComboBoxItem>Large (200px)</ComboBoxItem>
+        </ComboBox>
+        <TextBlock Text="Color:" FontWeight="Bold" Margin="0,10,0,0"/>
+        <ComboBox x:Name="cmbColor" SelectedIndex="0">
+            <ComboBoxItem>White</ComboBoxItem>
+            <ComboBoxItem>LightGray</ComboBoxItem>
+            <ComboBoxItem>LightBlue</ComboBoxItem>
+        </ComboBox>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,15">
+            <Button Content="OK" Width="70" Click="Ok_Click" Margin="5"/>
+            <Button Content="Cancel" Width="70" Click="Cancel_Click" Margin="5"/>
+        </StackPanel>
+    </StackPanel>
+</Window>
