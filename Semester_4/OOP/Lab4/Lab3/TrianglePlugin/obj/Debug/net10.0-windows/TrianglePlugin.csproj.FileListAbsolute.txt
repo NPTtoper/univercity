@@ -1,0 +1,15 @@
+D:\С#\OOPsem1\Labs\Lab4\Lab3\TrianglePlugin\bin\Debug\net10.0-windows\TrianglePlugin.deps.json
+D:\С#\OOPsem1\Labs\Lab4\Lab3\TrianglePlugin\bin\Debug\net10.0-windows\TrianglePlugin.dll
+D:\С#\OOPsem1\Labs\Lab4\Lab3\TrianglePlugin\bin\Debug\net10.0-windows\TrianglePlugin.pdb
+D:\С#\OOPsem1\Labs\Lab4\Lab3\TrianglePlugin\bin\Debug\net10.0-windows\Lab3.dll
+D:\С#\OOPsem1\Labs\Lab4\Lab3\TrianglePlugin\bin\Debug\net10.0-windows\Lab3.pdb
+D:\С#\OOPsem1\Labs\Lab4\Lab3\TrianglePlugin\obj\Debug\net10.0-windows\TrianglePlugin.csproj.AssemblyReference.cache
+D:\С#\OOPsem1\Labs\Lab4\Lab3\TrianglePlugin\obj\Debug\net10.0-windows\TrianglePlugin.GeneratedMSBuildEditorConfig.editorconfig
+D:\С#\OOPsem1\Labs\Lab4\Lab3\TrianglePlugin\obj\Debug\net10.0-windows\TrianglePlugin.AssemblyInfoInputs.cache
+D:\С#\OOPsem1\Labs\Lab4\Lab3\TrianglePlugin\obj\Debug\net10.0-windows\TrianglePlugin.AssemblyInfo.cs
+D:\С#\OOPsem1\Labs\Lab4\Lab3\TrianglePlugin\obj\Debug\net10.0-windows\TrianglePlugin.csproj.CoreCompileInputs.cache
+D:\С#\OOPsem1\Labs\Lab4\Lab3\TrianglePlugin\obj\Debug\net10.0-windows\Triangle.68BFD454.Up2Date
+D:\С#\OOPsem1\Labs\Lab4\Lab3\TrianglePlugin\obj\Debug\net10.0-windows\TrianglePlugin.dll
+D:\С#\OOPsem1\Labs\Lab4\Lab3\TrianglePlugin\obj\Debug\net10.0-windows\refint\TrianglePlugin.dll
+D:\С#\OOPsem1\Labs\Lab4\Lab3\TrianglePlugin\obj\Debug\net10.0-windows\TrianglePlugin.pdb
+D:\С#\OOPsem1\Labs\Lab4\Lab3\TrianglePlugin\obj\Debug\net10.0-windows\ref\TrianglePlugin.dll
